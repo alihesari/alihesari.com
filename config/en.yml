@@ -1,0 +1,19 @@
+title: Ali Hesari
+description: Ali Hesari's Blog. Exploring Javascript & Things.
+author: Ali Hesari
+language: English
+
+url: https://alihesari.com
+root: /
+
+static: /static/
+imageurl: /img/
+
+default_extension: md
+
+permalink: :title/
+
+template: ali
+disqus_shortname: alihesari
+
+lists:

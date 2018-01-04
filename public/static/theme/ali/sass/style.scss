@@ -1,0 +1,300 @@
+@import "./highlight";
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+@font-face{
+  font-family: Sahel;
+  font-weight: regular;
+  src: url(../font/sahel.woff)
+}
+
+@font-face{
+  font-family: Sahel;
+  font-weight: bold;
+  src: url(../font/sahel-bold.woff)
+}
+
+$max-width: 43rem;
+$breakpoint: $max-width + 1rem;
+
+$purple: #791E94;
+$blue: #0048ab;
+$purple-dark: #56445D;
+$purple-light: #AAABD3;
+$charcoal: #222;
+$charcoal-light: #666;
+$gray: #6E7783;
+$gray-light: #ededed;
+
+body, html {
+  font: 16px/1.618 'Anonymous Pro';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+
+  @media all and (max-width: $breakpoint) {
+    font-size: 14px;
+  }
+}
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+
+  @media all and (max-width: $breakpoint) {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+
+  @media all and (max-width: $breakpoint) {
+    margin: 0;
+    padding: 0 0 0 1rem;
+  }
+}
+
+pre, code {
+  font-family: 'Anonymous Pro';
+}
+
+code {
+  background-color: rgba(244, 246, 249, 1.00) !important;
+  padding: 2px 5px;
+}
+
+pre {
+  direction: ltr !important;
+  line-height: 1.618 !important;
+}
+
+blockquote {
+  color: $charcoal-light;
+  font-style: italic;
+}
+
+hr {
+  border: 1px solid $gray-light;
+  border-bottom: none;
+  margin: 2rem 0;
+}
+
+.article-list {
+  a {
+    color: $purple-dark;
+  }
+
+  article {
+    display: flex;
+    margin-bottom: 0.4rem;
+  }
+
+  time {
+    color: $purple-light;
+    display: block;
+    margin-right: 1rem;
+    white-space: nowrap;
+  }
+
+  h3, h4 {
+    margin: 0;
+  }
+
+  h3 {
+    margin-top: 2rem;
+
+    &:after {
+      content: ' ¬';
+    }
+  }
+}
+
+.article {
+  .title, .time {
+    margin: 0;
+  }
+  
+  .time {
+    color: $purple-light;
+    font-weight: normal;
+  }
+  .content {
+    color: $charcoal;
+  }
+
+  img {
+    max-width: 100%;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+}
+
+.delimiter {
+  border-top: 1px solid $gray-light;
+
+  .logo {
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: #fff;
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
+
+.comments {
+  margin-top: 5rem;
+}
+
+.pagination {
+  margin: 5rem 0 -3rem 0;
+
+  a {
+    color: $purple-dark;
+    font-size: .9rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      display: flex;
+      flex: 0 0 45%;
+      text-align: left;
+
+      span {
+        flex: 1;
+      }
+
+      i {
+        font-style: normal;
+        width: 1.5rem;
+      }
+
+      &.next {
+        text-align: right;
+
+        i {
+          order: 1;
+        }
+      }
+    }
+  }
+}
+
+header {
+  nav {
+    margin: 2rem 0;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+
+    h1 {
+      flex: 1;
+      font-size: 1rem;
+      font-weight: normal;
+      margin: 0;
+
+      a {
+        color: #000;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      margin: 0 0.5rem;
+    }
+
+    a {
+      color: $purple-dark;
+    }
+  }
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 0 0 3rem;
+
+  p {
+    margin: 0;
+    text-align: center;
+    font-size: .9rem;
+    color: $gray;
+
+    a {
+      color: darken($gray, 20%);
+    }
+  }
+}
+
+html[lang="Farsi"] {
+  body, html {
+    font-family: Sahel, 'Anonymous Pro';
+  }
+
+  .container {
+    direction: rtl;
+  }
+
+  ul {
+    @media all and (max-width: $breakpoint) {
+      padding: 0 1rem 0 0;
+    }
+  }
+
+  .article-list {
+    time {
+      margin: 0 0 0 1rem;
+      width: 2.5rem;
+    }
+
+    h4 {
+      font-weight: normal;
+    }
+
+    h3:after {
+      content: ' ⌐';
+    }
+  }
+
+  .article {
+    .content {
+      line-height: 1.8;
+    }
+  }
+
+  .pagination {
+    nav {
+      a {
+        text-align: right;
+
+        &.next {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

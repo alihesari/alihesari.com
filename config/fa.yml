@@ -1,0 +1,23 @@
+title: علی حصاری
+description: من علی حصاری هستم، توسعه‌دهنده نرم‌افزار
+author: علی حصاری
+language: Farsi
+
+url: https://alihesari.com/farsi/
+root: /farsi/
+
+static: /farsi/static/
+imageurl: /farsi/img/
+
+default_extension: md
+
+permalink: :title/
+
+template: ali
+
+lists:
+
+namespace:
+
+plugins:
+ - Jdate

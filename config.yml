@@ -1,0 +1,29 @@
+
+title: Ali Hesari
+description: Ali Hesari / Exploring Javascript & Things.
+
+author: Ali Hesari
+email: alihesari.com@gmail.com
+timezone: +03:30
+
+url: https://alihesari.com
+root: /
+static: /static
+imageurl: /static/images
+icon: /static/theme/ali/img/logo.png
+
+post_num: all
+archive_post_num: all
+feed_output: atom.xml
+
+default_floor: fa
+default_markup: mmd
+
+disqus_shortname: alihesari
+google_analytics: UA-111955345-1
+
+twitter: https://twitter.com/aliehesari
+github: https://github.com/alihesari
+instagram: https://instagram.com/aliehesari
+facebook: https://facebook.com/aliehesari
+

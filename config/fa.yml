@@ -3,7 +3,7 @@ description: من علی حصاری هستم، توسعه‌دهنده نرم‌
 author: علی حصاری
 language: Farsi
 
-url: https://alihesari.com/farsi/
+url: http://localhost:5000/farsi/
 root: /farsi/
 
 static: /farsi/static/

@@ -6,7 +6,7 @@ author: Ali Hesari
 email: alihesari.com@gmail.com
 timezone: +03:30
 
-url: https://alihesari.com
+url: http://localhost:5000
 root: /
 static: /static
 imageurl: /static/images

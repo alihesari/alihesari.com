@@ -13,4 +13,4 @@ tags:
 ![Iran](iran.gif)
 خیلی وقته دیتابیس شهرها و استان های ایران رو آماده کردم و در پروژه و وب سایت ها استفاده میکنم. برای همین تویه گیت هاب منتشرش کردم شاید برای کسی مفید باشه.
 
-[لینک گیت هاب](https://github.com/alihesari/iran_province_city)
+[لینک گیت هاب](https://github.com/alihesari/Mysql-database-of-provinces-and-cities-of-Iran)

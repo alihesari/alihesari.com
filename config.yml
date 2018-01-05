@@ -19,11 +19,10 @@ feed_output: atom.xml
 default_floor: fa
 default_markup: mmd
 
-disqus_shortname: alihesari
+disqus_shortname: ali-hesari
 google_analytics: UA-111955345-1
 
 twitter: https://twitter.com/aliehesari
 github: https://github.com/alihesari
 instagram: https://instagram.com/aliehesari
 facebook: https://facebook.com/aliehesari
-

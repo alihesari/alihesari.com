@@ -3,7 +3,7 @@ description: Ali Hesari's Blog. Exploring Javascript & Things.
 author: Ali Hesari
 language: English
 
-url: http://localhost:5000
+url: http://localhost:80
 root: /
 
 static: /static/

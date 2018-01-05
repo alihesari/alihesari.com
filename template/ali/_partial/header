@@ -9,6 +9,7 @@
         {{ IF SITE.language == 'Farsi' }}
           <li><a href="{{ ROOT }}">فهرست</a></li>
           <li><a href="{{ ROOT }}/about/">درباره</a></li>
+          <li><a href="{{ ROOT }}/contact/">تماس با من</a></li>
           <li><a href="{{ MAIN.github }}" target="_blank">گیت‌هاب</a></li>
           <li><a href="{{ MainROOT }}">English</a></li>
         {{ ELSE }}

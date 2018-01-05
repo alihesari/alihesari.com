@@ -12,10 +12,10 @@
       </div>
       <p>
         {{ IF SITE.language == 'Farsi' }}
-          ۱۳۸۴ - {{ FOREACH POSTS }}{{ CALENDAR.jyear | $FarsiNum }}{{ LAST }}{{ END }}<br>
+          ۱۳۹۵ - {{ FOREACH POSTS }}{{ CALENDAR.jyear | $FarsiNum }}{{ LAST }}{{ END }}<br>
           مطالب تحت لیسانس <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license" target="_blank">کریتیو کامنز</a> منتشر می‌شوند.
         {{ ELSIF SITE.language == 'English' }}
-          2017 - {{ BUILD.year }}<br>
+          2016 - {{ BUILD.year }}<br>
           Content is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license" target="_blank">Creative Commons</a>.
         {{ END }}
       </p>

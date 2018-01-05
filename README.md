@@ -2,6 +2,8 @@
 
 This is the home of my blog published in two languages. This repo uses [Mira](https://miraxy.github.io/) a static website generator written in Perl.
 
+> The current website template cloned from [Sallar.me](https://github.com/sallar/sallar.me) repo
+
 ## How to use?
 
 1- Install Mira:

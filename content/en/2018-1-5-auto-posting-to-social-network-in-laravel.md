@@ -12,7 +12,7 @@ tags:
   - PHP
 ---
 
-![larasap](Larasap-package.jpeg)
+![larasap](larasap-package.jpeg)
 Manually post to social networks is probably better than to use an automated method. But, if you post many new topics every day, the automated post is practically inevitable.
 In Laravel, You need a package for your web application to auto-posting website content to the social network.
 [Larasap](https://github.com/toolkito/laravel-social-auto-posting) is a Laravel package and the easy way to post to the social network. This package makes it easy to post on Twitter, Facebook page, and Telegram channel.

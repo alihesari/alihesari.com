@@ -40,7 +40,7 @@ tags:
 
 - PHP
 - C#
-- NodeJS
+- ECMAScript
 - Java
 - Python
 - Ruby

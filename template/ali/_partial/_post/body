@@ -4,10 +4,7 @@
   </section>
 
   <p class="article-more-link">
-    {{ SWITCH SITE.language }}
-      {{ CASE 'Farsi' }} <a href="{{ post.url }}#more">بیشتر بخوانید</a>
-      {{ CASE 'English' }} <a href="{{ post.url }}#more">Read More</a>
-    {{ END }}
+    <a href="{{ post.url }}#more">Read More</a>
   </p>
 {{ ELSIF is_more }}
   <section class="content">
